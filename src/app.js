@@ -35,7 +35,7 @@ app.use(express.json());
 process.env.USE_MONGODB_FOR_PRODUCTS = "true";
 process.env.USE_MONGODB_FOR_CARTS = "true"; 
 process.env.MONGODB_URI =
-  "";
+  "mongodb+srv://rodrigoeboiko:<WZQk3i76djhQaki4>@coder-cluster23.xpbuj.mongodb.net/?retryWrites=true&w=majority&appName=Coder-Cluster23";
 
 const DB_URL = process.env.MONGODB_URI;
 

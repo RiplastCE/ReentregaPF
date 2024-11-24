@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-const DB_URL = 
+const DB_URL = "mongodb://localhost:27017/e-commerce";
 
 mongoose.connect(DB_URL, {
   useNewUrlParser: true,
